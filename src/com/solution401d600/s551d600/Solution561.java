@@ -1,4 +1,4 @@
-package com.solution401d600.solution551d600;
+package com.solution401d600.s551d600;
 
 import java.util.Arrays;
 /*

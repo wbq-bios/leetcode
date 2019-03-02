@@ -1,4 +1,4 @@
-package com.solution1d200.solution1d50;
+package com.solution1d200.s1d50;
 
 import java.util.HashSet;
 import java.util.Set;

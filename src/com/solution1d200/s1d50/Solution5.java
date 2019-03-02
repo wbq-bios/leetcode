@@ -1,4 +1,4 @@
-package com.solution1d200.solution1d50;
+package com.solution1d200.s1d50;
 
 /**
  * @description:
@@ -17,13 +17,16 @@ public class Solution5 {
         int right=0;
         int [][] res=new int[n][n];
         for (int i=0;i<n;i++){
-            res[i][i]=1;//字符本身肯定是回文
+            //字符本身肯定是回文
+            res[i][i]=1;
             for (int j = 0; j <i; j++) {
-                if (i-j==1 && s.charAt(i)==s.charAt(j)){//判断只有2个字符的情况
+                //判断只有2个字符的情况
+                if (i-j==1 && s.charAt(i)==s.charAt(j)){
                     res[j][i]=1;
                 }
+                //判断3个和3个以上的情况
                 if (s.charAt(i)==s.charAt(j)&&
-                    res[j+1][i-1]==1 && i-j>1){//判断3个和3个以上的情况
+                    res[j+1][i-1]==1 && i-j>1){
 
                     res[j][i]=1;
                 }

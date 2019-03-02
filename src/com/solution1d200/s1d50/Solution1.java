@@ -1,4 +1,4 @@
-package com.solution1d200.solution1d50;
+package com.solution1d200.s1d50;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -43,7 +43,6 @@ public class Solution1 {
     public int[] twoSum() {
         int[] nums = {-1, -2, -3, -4, -5};
         int target = -8;
-        int[] ans = new int[2];
         Map<Integer,Integer> res=new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             int odd=target-nums[i];

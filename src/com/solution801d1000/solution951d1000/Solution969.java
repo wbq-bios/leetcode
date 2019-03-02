@@ -19,9 +19,11 @@ public class Solution969 {
         while (curEndIndex > 0) {
             int curMaxIndex = getCurMaxIndex(A, curEndIndex);
             if (curMaxIndex != curEndIndex) {
-                Pancake(A, 0, curMaxIndex);  // get the cur max to the 0-th index.
+                // get the cur max to the 0-th index.
+                Pancake(A, 0, curMaxIndex);
                 ans.add(curMaxIndex + 1);
-                Pancake(A, 0, curEndIndex);  // get the cur max to curEndIndex so everything after curEndIndex (inclusive) is sorted
+                // get the cur max to curEndIndex so everything after curEndIndex (inclusive) is sorted
+                Pancake(A, 0, curEndIndex);
                 ans.add(curEndIndex + 1);
             }
             curEndIndex--;

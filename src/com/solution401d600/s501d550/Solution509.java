@@ -1,4 +1,4 @@
-package com.solution401d600.solution501d550;
+package com.solution401d600.s501d550;
 
 /**
  * @description:

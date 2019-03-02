@@ -1,4 +1,4 @@
-package com.solution1d200.solution1d50;//Solution2所需要的数据结构
+package com.solution1d200.s1d50;//Solution2所需要的数据结构
 
 public class ListNode {
     int val;
