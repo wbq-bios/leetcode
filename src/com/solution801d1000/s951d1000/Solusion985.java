@@ -1,4 +1,4 @@
-package com.solution801d1000.solution951d1000;//    2019.2.17 985. 查询后的偶数和
+package com.solution801d1000.s951d1000;//    2019.2.17 985. 查询后的偶数和
 
 
 /*

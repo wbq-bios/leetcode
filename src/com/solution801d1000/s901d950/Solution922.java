@@ -1,4 +1,4 @@
-package com.solution801d1000.solution901d950;
+package com.solution801d1000.s901d950;
 
 /**
  * @author: wbq

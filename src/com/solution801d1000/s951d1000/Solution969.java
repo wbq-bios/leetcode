@@ -1,4 +1,4 @@
-package com.solution801d1000.solution951d1000;
+package com.solution801d1000.s951d1000;
 
 import java.util.*;
 
